@@ -1,5 +1,5 @@
 {% set name = "libcap" %}
-{% set version = "2.32" %}
+{% set version = "2.33" %}
 
 package:
   name: {{ name|lower }}
@@ -7,11 +7,11 @@ package:
 
 source:
   url: https://mirrors.edge.kernel.org/pub/linux/libs/security/linux-privs/libcap2/libcap-{{ version }}.tar.xz
-  sha256: 1005e3d227f2340ad1e3360ef8b69d15e3c72a29c09f4894d7aac038bd26e2be
+  sha256: 08edeaba2757021aeec45c4eeec52566675e0e0f5d4f057284d729e04f2643d6
 
 build:
   number: 0
-  skip: True  # [not linux]
+  skip: true  # [not linux]
   run_exports:
     - {{ pin_subpackage('libcap', max_pin='x.x') }}
 
@@ -32,7 +32,7 @@ about:
   license: BSD-3-Clause
   license_family: BSD
   license_file: License
-  summary: 'Implements the user-space interfaces to the POSIX 1003.1e capabilities available in Linux kernels'
+  summary: Implements the user-space interfaces to the POSIX 1003.1e capabilities available in Linux kernels
 
 extra:
   recipe-maintainers:
