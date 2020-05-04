@@ -1,5 +1,5 @@
 {% set name = "libcap" %}
-{% set version = "2.33" %}
+{% set version = "2.34" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://mirrors.edge.kernel.org/pub/linux/libs/security/linux-privs/libcap2/libcap-{{ version }}.tar.xz
-  sha256: 08edeaba2757021aeec45c4eeec52566675e0e0f5d4f057284d729e04f2643d6
+  sha256: aecdd42015955068d3d94b7caa9590fcb2de5df53ce53c61a21b912bfc0b1611
 
 build:
   number: 0
