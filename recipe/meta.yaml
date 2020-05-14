@@ -10,7 +10,7 @@ source:
   sha256: aecdd42015955068d3d94b7caa9590fcb2de5df53ce53c61a21b912bfc0b1611
 
 build:
-  number: 0
+  number: 1
   skip: true  # [not linux]
   run_exports:
     - {{ pin_subpackage('libcap', max_pin='x.x') }}
@@ -37,3 +37,4 @@ about:
 extra:
   recipe-maintainers:
     - scopatz
+    - saraedum
