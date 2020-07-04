@@ -5,7 +5,7 @@ Home: https://directory.fsf.org/wiki/Libcap
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Implements the user-space interfaces to the POSIX 1003.1e capabilities available in Linux kernels
 
