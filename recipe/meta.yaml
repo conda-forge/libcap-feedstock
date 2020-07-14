@@ -10,8 +10,8 @@ source:
   sha256: d83dc701c5a3a3d726c0a907714886af535b326c32501ab96831847949803297
 
 build:
-  number: 0
-  skip: true  # [not linux]
+  number: 1
+  skip: true  # [win]
   run_exports:
     - {{ pin_subpackage('libcap', max_pin='x.x') }}
 
