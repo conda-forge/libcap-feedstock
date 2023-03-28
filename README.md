@@ -1,11 +1,11 @@
-About libcap
-============
+About libcap-feedstock
+======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/libcap-feedstock/blob/main/LICENSE.txt)
 
 Home: https://directory.fsf.org/wiki/Libcap
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/libcap-feedstock/blob/main/LICENSE.txt)
 
 Summary: Implements the user-space interfaces to the POSIX 1003.1e capabilities available in Linux kernels
 
