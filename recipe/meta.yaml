@@ -1,8 +1,7 @@
-{% set name = "libcap" %}
 {% set version = "2.73" %}
 
 package:
-  name: {{ name|lower }}
+  name: libcap
   version: {{ version }}
 
 source:
