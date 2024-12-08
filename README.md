@@ -176,5 +176,6 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@ehfd](https://github.com/ehfd/)
 * [@scopatz](https://github.com/scopatz/)
 
