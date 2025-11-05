@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -ex
 
-export CFLAGS="${CFLAGS} -DXATTR_NAME_CAPS"
+export CFLAGS="${CFLAGS} -DXATTR_NAME_CAPS='\"security.capability\"'"
 
 make CC=$CC \
      prefix=$PREFIX \
