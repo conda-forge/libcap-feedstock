@@ -2,14 +2,14 @@
 
 package:
   name: libcap
-  version: {{ version }}
+  version: "{{ version }}"
 
 source:
   url: https://mirrors.edge.kernel.org/pub/linux/libs/security/linux-privs/libcap2/libcap-{{ version }}.tar.xz
   sha256: 897bc18b44afc26c70e78cead3dbb31e154acc24bee085a5a09079a88dbf6f52
 
 build:
-  number: 0
+  number: 1
   skip: true  # [not linux]
   run_exports:
     - {{ pin_subpackage('libcap', max_pin='x.x') }}
@@ -20,8 +20,6 @@ requirements:
     - {{ stdlib('c') }}
     - make
     - pkg-config
-  host:
-    - attr
 
 test:
   commands:
