@@ -2,6 +2,7 @@
 set -ex
 
 make CC=$CC \
+     OBJCOPY=$OBJCOPY \
      prefix=$PREFIX \
      CFLAGS="${CFLAGS}" \
      LDFLAGS="${LDFLAGS}" \
